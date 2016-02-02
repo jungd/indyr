@@ -9,7 +9,7 @@ Author@R: c(person("Alan", "Arnholt", email = "arnholtat@appstate.edu",
   person("Ben", "Jones", email = "jonesb@appstate.edu",
   role = "ctb"))
 Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Description: https://github.com/jungd/indyr.git
 License: GPL-2
 LazyData: TRUE
 Suggests: knitr,
