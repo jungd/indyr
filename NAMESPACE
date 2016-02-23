@@ -2,5 +2,4 @@
 
 export(RP)
 export(roll)
-export(shuffle)
 export(sq)

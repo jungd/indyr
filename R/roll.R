@@ -11,7 +11,7 @@
 sq <- function(x){
   x^2
 }
-
+####################################################
 #' Power Function
 #'
 #' @param x must be numeric object.
@@ -27,7 +27,7 @@ sq <- function(x){
 RP <- function(x, power = 1){
   x^power
 }
-
+################################################
 #' Dice
 #'
 #' @param dietype The type of die.
@@ -47,21 +47,5 @@ roll <- function(dietype = 1:6 , probvalues = rep(1/length(dietype), length(diet
   dice <- sample(dietype, size = 2, replace = TRUE, prob = probvalues)
   sum(dice)
 }
-
-#' Shuffle
-#'
-#' @param Regular USA plying cards
-#'
-#' @return randome card
-#' @export
-#'
-#' @examples
-#' shuffle(cards)
-
-
-cards <- readr::read_csv("https://gist.githubusercontent.com/garrettgman/9629323/raw/ee5dfc039fd581cb467cc69c226ea2524913c3d8/deck.csv")
-shuffle <- function(cards){
-  index <- sample(dim(cards)[1], size = dim(cards)[1], replace = FALSE)
-  cards[index, ]
-}
+###################
 
