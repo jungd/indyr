@@ -2,9 +2,6 @@
 Dong Won, Jung(Indy)  
 2/22/2016  
 
-HI
-
-
 
 [![Travis-CI Build Status](https://travis-ci.org/jungd/indyr.svg?branch=master)](https://travis-ci.org/jungd/indyr)
 
