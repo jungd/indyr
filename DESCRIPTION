@@ -2,16 +2,19 @@ Package: indyr
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-Author@R: c(person("Alan", "Arnholt", email = "arnholtat@appstate.edu",
-  role = c("aut", "cre")),
-  person("Erin", "Kreiling", email = "kreilingeg@appstate.edu",
-  role =  "aut"),
-  person("Ben", "Jones", email = "jonesb@appstate.edu",
-  role = "ctb"))
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: https://github.com/jungd/indyr.git
+Date: 2016-02-01
+Authors@R: c(person("Alan", "Arnholt", email = "arnholtat@appstate.edu",
+              role = c("aut", "cre")),
+             person("Erin", "Kreiling", email = "kreilingeg@appstate.edu",
+              role = "aut"),
+             person("Ben", "Jones", email = "jonesb@appstate.edu",
+              role = "aut"),
+             person("Jack", "Leff", email = "leffjr@appstate.edu",
+              role = "ctb"))
+Description: Describe you package and make sure to end your description with a full stop.
 License: GPL-2
 LazyData: TRUE
 Suggests: knitr,
-    rmarkdown
+    rmarkdown,
+    testthat
 VignetteBuilder: knitr
