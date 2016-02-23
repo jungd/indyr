@@ -60,6 +60,7 @@ roll <- function(dietype = 1:6 , probvalues = rep(1/length(dietype), length(diet
 #' deck2 <- shuffle(cards = deck)
 #' deck2[1:5, ]
 
+cards <- readr::read_csv("https://gist.githubusercontent.com/garrettgman/9629323/raw/ee5dfc039fd581cb467cc69c226ea2524913c3d8/deck.csv")
 shuffle <- function(cards){
   index <- sample(dim(cards)[1], size = dim(cards)[1], replace = FALSE)
   cards[index, ]
