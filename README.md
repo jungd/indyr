@@ -21,5 +21,5 @@ devtools::install_github('jungd/indyr', build_vignettes = TRUE)
 
 Please report bugs and suggestions to [https://github.com/jungd/indyr/issues](https://github.com/jungd/indyr/issues)
 
-## Something new here
+
 
